@@ -1,0 +1,194 @@
+{
+  "tech_products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99,
+      "brand": "TechMaster",
+      "quantity_left": 30,
+      "description": "Powerful laptop with high-performance features",
+      "category": "Computers",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 3,
+      "name": "Wireless Earbuds",
+      "price": 129.99,
+      "brand": "AudioTech",
+      "quantity_left": 40,
+      "description": "True wireless earbuds with noise cancellation",
+      "category": "Audio",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 4,
+      "name": "4K Smart TV",
+      "price": 899.99,
+      "brand": "VisualTech",
+      "quantity_left": 15,
+      "description": "Ultra HD Smart TV with built-in streaming apps",
+      "category": "Televisions",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 5,
+      "name": "Gaming Console",
+      "price": 499.99,
+      "brand": "GameMaster",
+      "quantity_left": 20,
+      "description": "Next-gen gaming console with powerful graphics",
+      "category": "Gaming",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 6,
+      "name": "Wireless Router",
+      "price": 79.99,
+      "brand": "ConnectTech",
+      "quantity_left": 35,
+      "description": "High-speed wireless router for home or office use",
+      "category": "Networking",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 7,
+      "name": "Smart Watch",
+      "price": 159.99,
+      "brand": "WearTech",
+      "quantity_left": 22,
+      "description": "Fitness tracker and smartwatch with health monitoring",
+      "category": "Wearables",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 8,
+      "name": "Digital Camera",
+      "price": 449.99,
+      "brand": "CaptureTech",
+      "quantity_left": 18,
+      "description": "High-resolution digital camera with advanced shooting modes",
+      "category": "Cameras",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 9,
+      "name": "Headphones",
+      "price": 149.99,
+      "brand": "SoundMasters",
+      "quantity_left": 28,
+      "description": "Over-ear headphones with immersive sound quality",
+      "category": "Audio",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 10,
+      "name": "Tablet",
+      "price": 349.99,
+      "brand": "TabTech",
+      "quantity_left": 32,
+      "description": "Slim and powerful tablet for productivity and entertainment",
+      "category": "Computers",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 11,
+      "name": "Wireless Mouse",
+      "price": 29.99,
+      "brand": "TechEase",
+      "quantity_left": 45,
+      "description": "Responsive wireless mouse for smooth navigation",
+      "category": "Peripherals",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 12,
+      "name": "External Hard Drive",
+      "price": 89.99,
+      "brand": "StorageTech",
+      "quantity_left": 24,
+      "description": "High-capacity external hard drive for data storage",
+      "category": "Storage",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 13,
+      "name": "Graphics Card",
+      "price": 349.99,
+      "brand": "PowerGraph",
+      "quantity_left": 15,
+      "description": "Dedicated graphics card for gaming and multimedia",
+      "category": "Components",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 14,
+      "name": "Smart Home Hub",
+      "price": 129.99,
+      "brand": "HomeTech",
+      "quantity_left": 20,
+      "description": "Central hub for smart home automation",
+      "category": "Smart Home",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 15,
+      "name": "USB-C Docking Station",
+      "price": 79.99,
+      "brand": "ConnectEase",
+      "quantity_left": 30,
+      "description": "Docking station for multiple device connectivity",
+      "category": "Accessories",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 16,
+      "name": "Wireless Keyboard",
+      "price": 49.99,
+      "brand": "KeyTech",
+      "quantity_left": 25,
+      "description": "Slim and ergonomic wireless keyboard for efficient typing",
+      "category": "Peripherals",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 17,
+      "name": "VR Headset",
+      "price": 299.99,
+      "brand": "ImmerseTech",
+      "quantity_left": 18,
+      "description": "Virtual reality headset for immersive gaming and experiences",
+      "category": "Gaming",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 18,
+      "name": "Smart Speaker",
+      "price": 99.99,
+      "brand": "VoiceTech",
+      "quantity_left": 22,
+      "description": "Voice-controlled smart speaker with virtual assistant",
+      "category": "Smart Home",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 19,
+      "name": "Portable Power Bank",
+      "price": 39.99,
+      "brand": "ChargeTech",
+      "quantity_left": 40,
+      "description": "Compact power bank for charging devices on the go",
+      "category": "Accessories",
+      "deliveryStatus": "pending"
+    },
+    {
+      "id": 20,
+      "name": "Wireless Charging Pad",
+      "price": 29.99,
+      "brand": "ChargeEase",
+      "quantity_left": 35,
+      "description": "Qi-compatible wireless charging pad for smartphones",
+      "category": "Accessories",
+      "deliveryStatus": "pending"
+    }
+  ]
+}
