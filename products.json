@@ -18,7 +18,7 @@
       "quantity_left": 40,
       "description": "True wireless earbuds with noise cancellation",
       "category": "Audio",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "cancelled"
     },
     {
       "id": 4,
@@ -28,7 +28,7 @@
       "quantity_left": 15,
       "description": "Ultra HD Smart TV with built-in streaming apps",
       "category": "Televisions",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Delivered"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "quantity_left": 20,
       "description": "Next-gen gaming console with powerful graphics",
       "category": "Gaming",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Shipped form Hyderabad"
     },
     {
       "id": 6,
@@ -48,7 +48,7 @@
       "quantity_left": 35,
       "description": "High-speed wireless router for home or office use",
       "category": "Networking",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "out of Delivery"
     },
     {
       "id": 7,
@@ -58,7 +58,7 @@
       "quantity_left": 22,
       "description": "Fitness tracker and smartwatch with health monitoring",
       "category": "Wearables",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "In transit"
     },
     {
       "id": 8,
@@ -68,7 +68,7 @@
       "quantity_left": 18,
       "description": "High-resolution digital camera with advanced shooting modes",
       "category": "Cameras",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Transfered to post office"
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "quantity_left": 28,
       "description": "Over-ear headphones with immersive sound quality",
       "category": "Audio",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Completed"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "quantity_left": 32,
       "description": "Slim and powerful tablet for productivity and entertainment",
       "category": "Computers",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Expired"
     },
     {
       "id": 11,
@@ -98,7 +98,7 @@
       "quantity_left": 45,
       "description": "Responsive wireless mouse for smooth navigation",
       "category": "Peripherals",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "cancelled"
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
       "quantity_left": 15,
       "description": "Dedicated graphics card for gaming and multimedia",
       "category": "Components",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Delivered"
     },
     {
       "id": 14,
@@ -128,7 +128,7 @@
       "quantity_left": 20,
       "description": "Central hub for smart home automation",
       "category": "Smart Home",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Shipped form Nagpur"
     },
     {
       "id": 15,
@@ -138,7 +138,7 @@
       "quantity_left": 30,
       "description": "Docking station for multiple device connectivity",
       "category": "Accessories",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "In transit"
     },
     {
       "id": 16,
@@ -148,7 +148,7 @@
       "quantity_left": 25,
       "description": "Slim and ergonomic wireless keyboard for efficient typing",
       "category": "Peripherals",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Expired"
     },
     {
       "id": 17,
@@ -158,7 +158,7 @@
       "quantity_left": 18,
       "description": "Virtual reality headset for immersive gaming and experiences",
       "category": "Gaming",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "out of Delivery"
     },
     {
       "id": 18,
@@ -168,7 +168,7 @@
       "quantity_left": 22,
       "description": "Voice-controlled smart speaker with virtual assistant",
       "category": "Smart Home",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Completed"
     },
     {
       "id": 19,
@@ -178,7 +178,7 @@
       "quantity_left": 40,
       "description": "Compact power bank for charging devices on the go",
       "category": "Accessories",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Transfered to post office"
     },
     {
       "id": 20,
@@ -188,7 +188,7 @@
       "quantity_left": 35,
       "description": "Qi-compatible wireless charging pad for smartphones",
       "category": "Accessories",
-      "deliveryStatus": "pending"
+      "deliveryStatus": "Delivered"
     }
   ]
 }

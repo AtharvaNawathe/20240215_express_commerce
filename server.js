@@ -67,7 +67,7 @@ app.delete('/deleteProduct/:id', (req, res) => {
 });
 
 
-
+// Delete a product from user perspective
 app.delete('/deleteproduct', (req, res) => {
   const orderId = req.body.orderId;
 
@@ -95,7 +95,7 @@ app.delete('/deleteproduct', (req, res) => {
 });
 
 
-
+// Search a product
 app.get('/searchProduct', (req, res) => {
     const searchTerm = req.query.term;
   
@@ -114,6 +114,7 @@ app.get('/searchProduct', (req, res) => {
     }
   });
 
+  // creates order which will be added to the orders.json 
   app.post('/createOrder', (req, res) => {
     const productId = req.body.productId;
   
@@ -155,6 +156,7 @@ app.get('/searchProduct', (req, res) => {
     res.json({ message: 'Order created successfully', order: newOrder });
   });
 
+  // Delete/ Cancel order give query parameters id of the product
   app.delete('/cancelOrder/:orderId', (req, res) => {
     const orderId = req.params.orderId;
   
@@ -175,7 +177,7 @@ app.get('/searchProduct', (req, res) => {
   });
 
 
-
+// gives order status or delivery status of the product
   app.post('/orderStatus', (req, res) => {
     const orderId = req.body.orderId;
   
@@ -197,7 +199,7 @@ app.get('/searchProduct', (req, res) => {
   });
   
 
-
+// basically it means that the order is placed
 app.post('/checkout', (req, res) => {
   const orderId = req.body.orderId;
 
@@ -217,7 +219,8 @@ app.post('/checkout', (req, res) => {
 
   
   
-  
+  // this fucntion is for generating a random order it which will be given to 
+  //product
   function generateOrderId() {
     return Math.floor(Math.random() * 1000000);
   }

@@ -1,0 +1,185 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Backend",
+    "dateExported": "2024-02-16T04:56:58.395Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "174f656d-71f9-4fca-b9fc-fa782fe30dff",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "createProducts",
+            "url": "http://localhost:3000/createProduct",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-15T17:03:27.059Z",
+            "modified": "2024-02-16T04:48:30.232Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":2,\n  \"name\": \"Acer Nitro 5\",\n  \"price\": 1000.99,\n  \"brand\": \"Acer\",\n  \"quantity_left\": 30,\n  \"description\": \"Powerful laptop with high-performance features\",\n  \"category\": \"Computers\",\n  \"deliveryStatus\": \"pending\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8bd895cf-1c9b-4b59-87c6-af281522d51f",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "editProduct",
+            "url": "http://localhost:3000/editProduct/2",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-02-15T17:14:36.014Z",
+            "modified": "2024-02-16T04:53:19.902Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "      {  \"id\": 2,\n        \"name\": \"Samsung S24 ultra\",\n        \"price\": 699.99,\n        \"brand\": \"GadgetX\",\n        \"quantity_left\": 25,\n        \"description\": \"Latest model smartphone with advanced camera and features\",\n        \"category\": \"Mobile Devices\"\n      }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ad5d6e09-168d-460a-8f5b-b0df0e17b847",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "deleteProduct",
+            "url": "http://localhost:3000/deleteproduct/2",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-02-15T17:19:45.246Z",
+            "modified": "2024-02-16T04:48:12.750Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9a00ba7d-9439-47a7-ab59-e5809f84fc24",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "searchProduct",
+            "url": "http://localhost:3000/searchProduct?term=Portable Power Bank",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-15T17:23:48.481Z",
+            "modified": "2024-02-16T04:54:07.811Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "term",
+                    "value": "Portable Power Bank",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "79367dfe-5bcb-4aad-851f-a1f53314faed",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "orders",
+            "url": "http://localhost:3000/createOrder",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-15T17:32:05.322Z",
+            "modified": "2024-02-16T04:54:33.923Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"productId\": 18\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "51026fc1-f4b5-41af-95e8-1d1683f06329",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "cancelOrder",
+            "url": "http://localhost:3000/cancelOrder/352720",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-15T18:14:13.454Z",
+            "modified": "2024-02-16T04:55:30.822Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5e9f7e33-c767-4966-a84d-102a3e5ed71d",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "Status",
+            "url": "http://localhost:3000/orderStatus",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-15T18:40:33.387Z",
+            "modified": "2024-02-16T04:55:17.846Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"orderId\": 352720\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2e64396-84a6-4d86-8ce2-0ea1d394774f",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "checkout",
+            "url": "http://localhost:3000/checkout",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-15T19:09:48.869Z",
+            "modified": "2024-02-16T04:55:03.555Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"orderId\": 352720\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c3e79ef2-9347-4d90-a0b6-f02234caf3ba",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "All records",
+            "url": "http://localhost:3000/",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-02-15T19:12:03.959Z",
+            "modified": "2024-02-15T19:12:41.908Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "59cb3ce4-7c33-4017-83a6-216bd080535f",
+            "colId": "228f54c6-fa29-42b2-9c13-6246a951cc68",
+            "containerId": "",
+            "name": "deleteproductfromcart",
+            "url": "http://localhost:3000/deleteproduct",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-02-15T19:21:10.840Z",
+            "modified": "2024-02-16T04:56:19.142Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"orderId\": 339377\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

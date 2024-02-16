@@ -1,31 +1,5 @@
 {
-  "order": {
-    "orderId": 213829,
-    "product": {
-      "id": 5,
-      "name": "Gaming Console",
-      "price": 499.99,
-      "brand": "GameMaster",
-      "quantity_left": 20,
-      "description": "Next-gen gaming console with powerful graphics",
-      "category": "Gaming",
-      "deliveryStatus": "pending"
-    }
-  },
   "orders": [
-    {
-      "orderId": 339377,
-      "product": {
-        "id": 6,
-        "name": "Wireless Router",
-        "price": 79.99,
-        "brand": "ConnectTech",
-        "quantity_left": 35,
-        "description": "High-speed wireless router for home or office use",
-        "category": "Networking",
-        "deliveryStatus": "pending"
-      }
-    },
     {
       "orderId": 189204,
       "product": {
@@ -36,6 +10,19 @@
         "quantity_left": 28,
         "description": "Over-ear headphones with immersive sound quality",
         "category": "Audio",
+        "deliveryStatus": "pending"
+      }
+    },
+    {
+      "orderId": 213829,
+      "product": {
+        "id": 5,
+        "name": "Gaming Console",
+        "price": 499.99,
+        "brand": "GameMaster",
+        "quantity_left": 20,
+        "description": "Next-gen gaming console with powerful graphics",
+        "category": "Gaming",
         "deliveryStatus": "pending"
       }
     }
